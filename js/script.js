@@ -29,3 +29,21 @@ if(playerInput =='3'){
 }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+if(playerMove == 'nieznany ruch'){
+    printMessage('wybierz poprawnie !');
+}
+else if( computerMove == 'kamień' && playerMove == 'papier'){
+    printMessage('Ty wygrywasz!');
+}
+else if( computerMove == 'papier' && playerMove == 'nożyce'){
+    printMessage('Ty wygrywasz!');
+}
+else if( computerMove == 'nożyce' && playerMove == 'kamień'){
+    printMessage('Ty wygrywasz!');
+}
+else if (playerMove == computerMove){
+    printMessage('remis');
+}
+else printMessage('Komputer wygrywa');
+
