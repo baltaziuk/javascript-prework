@@ -1,13 +1,20 @@
 .messages {
   background-color: yellowgreen;
+  padding: 15px;
+  width: 400px;
 }
 
 .result {
   background-color: red;
+  padding: 15px;
+  width: 400px;
+  color: wheat;
+  font-size: 28px;
 }
 
 .container {
   width: 400px;
   margin: 40px auto;
 }
+
 /*# sourceMappingURL=style.css.map */
